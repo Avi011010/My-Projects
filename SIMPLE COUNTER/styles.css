@@ -1,0 +1,43 @@
+body {
+    background-color: #404040;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #5EED5E;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .counter {
+    font-size: 48px;
+    font-weight:bold;
+    color: #404040;
+    margin-bottom: 20px;
+  }
+  
+  .buttons button {
+    background-color: #404040;
+    color: #5EED5E;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .buttons button:hover {
+    background-color: #1ef11e;
+    color: #404040;
+    border: black;
+  }
+  
